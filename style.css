@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@600&family=Raleway:ital,wght@1,200&display=swap');
+
+
+:root {
+    --cor-primaria: #0A031C;
+    --cor-letra-principal: #FFFFFF;
+    --cor-preta:  #000000;
+
+    --fonte-principal: 'Inter', sans-serif;
+}
+
+
+.container{
+    display: flex;
+}
+
+* {
+    background-color: var(--cor-primaria);
+    padding: 1% 4% 1%;
+    color: var(--cor-letra-principal);
+}
+
+.imagem__principal{
+    display:flexbox;
+    padding: 50% 50% 10% 20%;
+}
+
+.imagens__bank {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+
+.rodape {
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.imagem__principal{
+    width: 50%;
+}
